@@ -9,7 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flare_flutter: ^3.0.2
+  flare_flutter:
+    git:
+      url: https://github.com/KingMastana/Flare-Flutter.git
+      path: flare_flutter
+      ref: 03442ea577cf0f893ede0c847df9569f843ce9e6
 
 dev_dependencies:
   flutter_test:
